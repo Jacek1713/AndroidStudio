@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item android:title="Wybierz dane">
+            <menu>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_account_balance_24dp"
+                    android:title="Profil szkoły" />
+                <item
+                    android:id="@+id/nav_wojewodztwo"
+                    android:icon="@drawable/ic_people_24dp"
+                    android:title="Województwo" />
+                <item
+                    android:id="@+id/nav_powiat"
+                    android:icon="@drawable/ic_location_city_24dp"
+                    android:title="Powiat" />
+                <item
+                    android:id="@+id/nav_miasto"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Miasto" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Dalsze kroki">
+        <menu>
+            <item
+                android:id="@+id/nav_skasuj"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Skasuj" />
+            <item
+                android:id="@+id/nav_wyszukaj"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Wyszukaj" />
+        </menu>
+    </item>
+
+</menu>
